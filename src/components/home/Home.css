@@ -1,0 +1,43 @@
+.home .container-a {
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: anime2 infinite 5s;
+    transition: 1s;
+    opacity: 0.8;
+}
+
+@keyframes anime {
+    50% {
+        transform: scale(1, 2);
+    }
+    100% {transform: scale(1, 1);}
+}
+
+@keyframes anime1 {
+    50% {
+        transform: scale(2, 1);
+    }
+    100% {transform: scale(1, 1);}
+}
+
+@keyframes anime2 {
+    50% {
+        transform: scale(2, 2);
+    }
+    100% {transform: scale(1, 1);}
+}
+
+.home  h2 {
+    background-color: #ffff;
+    padding: 20px;
+    width: 300px;
+    border-radius: 20px;
+    font-size: 30px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
